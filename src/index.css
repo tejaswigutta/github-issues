@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#nav-bar{
+  background-color: #212121;
+  display:flex;
+  align-items: center;
+  height:100px;
+  width:100%;
+}
+.inputField{
+  height:30px;
+  width:150px;
+  font-size: 16px;;
+}
+#searchButton{
+  height:30px;
+  width:120px;
+}
+.inputField,#searchButton{
+  margin-left:30px;
+  margin-right:30px;
+  border-radius:10%;
+}
+#gitLogo{
+  height:100px;
+  padding-left: 30px;
+  width:100px;
+  border-radius: 50%;
+}
+#display{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px;
+}
+.items{
+  border: .5px solid rgba(36,41,46,.23137254901960785);
+  border-collapse: collapse;
+  border-radius:10px;
+  padding-top: 5px;
+  padding-left: 30px;
+  width:85%;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  text-decoration: underline;
+}
+p{
+  color:#586069;
+}
+#buttonsDiv{
+  display: flex;
+  justify-content: center;
+  margin:20px;
+}
+.button{
+  height:30px;
+  width:30px;
+}
+.button:hover{
+  background-color:black;
+  color:white;
+}
+
